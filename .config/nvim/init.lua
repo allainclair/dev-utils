@@ -16,5 +16,4 @@ vim.cmd('set background=dark')
 vim.cmd('highlight Whitespace ctermfg=237')
 
 -- Yank to clipboard: install apt install wl-clipboard for it to work (wayland)
-vim.o.clipboard = 'unnamedplus'
-
+vim.opt.clipboard = 'unnamedplus'  -- important: apt install xclip in necessary
